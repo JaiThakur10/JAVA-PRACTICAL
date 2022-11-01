@@ -124,13 +124,7 @@ class cylinder extends shape
 
 		cy.volume();
 
-		box b=new box();
-
-		b.area();
-
-		b.volume();
 
 	}
 
-}
 }
