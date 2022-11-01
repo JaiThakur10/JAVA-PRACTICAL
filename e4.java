@@ -100,36 +100,6 @@ class cylinder extends shape
 
 }
 
-class box extends shape
-
-{
-
-	int length=5;
-
-	int breadth=7;
-
-	double height=4.35;
-
-	void area()
-
-	{
-
-		double a=(2*height*breadth)+(2*height*length)+(2*breadth*length);
-
-		System.out.println("Area of Box is :"+a);
-
-	}
-
-	void volume()
-
-	{
-
-		double v=length*breadth*height;
-
-		System.out.println("Volume of Box is :"+v);
-
-	}
-
     public class e4{
 
 	public static void main(String[] args)
